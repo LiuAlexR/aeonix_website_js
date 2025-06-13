@@ -17,6 +17,8 @@ export default {
 		switch (url.pathname) {
 			case '/message':
 				return new Response('Hello, World!');
+			case 'about':
+				return new Response("About Us");
 			case '/random':
 				return new Response(crypto.randomUUID());
 			default:
