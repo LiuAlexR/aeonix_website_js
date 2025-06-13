@@ -9,9 +9,7 @@
 	<body>
 		<h1 id="heading"></h1>
 		<a href="about.html">Click!</a>
-		<p>This page comes from a static asset stored at `public/index.html` as configured in `wrangler.jsonc`.</p>
-		<button id="button" type="button">Fetch a random UUID</button>
-		<output id="random" for="button"></output>
+		<p>This is a test page.</p>
 		<script>
 			fetch('/message')
 				.then((resp) => resp.text())
