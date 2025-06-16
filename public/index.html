@@ -4,12 +4,76 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Hello, World!</title>
+		<link href="/resources/static/styles/main.css" rel="stylesheet"/>
 		<link href="/resources/static/styles/index.css" rel="stylesheet"/>
+		<link href="/resources/static/styles/navbar.css" rel="stylesheet"/>
 	</head>
 	<body>
+		<div id="navbar">
+			<div id="logo">
+				<img src="/resources/images/logos/aeonix.png" id="logo_img">
+			</div>
+			<input type="checkbox" id="menu_toggle" class="menu_toggle">
+			<label for="menu_toggle" class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</label>
+			<ul id="bar_as_list">
+				<li class="nav_bar_item">
+					<a class="nav_bar_item_link" href="/">
+						Home
+					</a>
+				</li>
+				<li class="nav_bar_item">
+					<div class="drop_down">
+						<a class="nav_bar_item_link drop_down_link" href="/solutions">
+							Solutions
+							<i class="fa fa-caret-down"></i>
+						</a>
+						<div class="drop_down_wrapper">
+							<a class="drop_down_content">
+								Lorem Ipsum
+							</a>
+							<a class="drop_down_content">
+								Lorem Ipsum
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="nav_bar_item">
+					<div class="drop_down">
+						<a class="nav_bar_item_link drop_down_link" href="/solutions">
+							Development
+							<i class="fa fa-caret-down"></i>
+						</a>
+						<div class="drop_down_wrapper">
+							<a class="drop_down_content">
+								Lorem Ipsum
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="nav_bar_item">
+					<a class="nav_bar_item_link" href="/about">
+						About Us
+					</a>
+				</li>
+				<li class="nav_bar_item">
+				   <a class="nav_bar_item_link" href="/">
+						News
+					</a>
+				</li>
+				<li class="nav_bar_item">
+				   <a class="nav_bar_item_link" href="/">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
 		<h1 id="heading"></h1>
 		<a href="about.html">Click!</a>
-		<p>This is a test page.</p>
+		<p>This is a test page.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>a<br><br><br><br<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>a</p><!--
 		<script>
 			fetch('/message')
 				.then((resp) => resp.text())
@@ -27,6 +91,6 @@
 						random.textContent = text;
 					});
 			});
-		</script>
+		</script>-->
 	</body>
 </html>
