@@ -1,6 +1,6 @@
 :root {
-    /* Primary brand color (from your logo) */
-    --logo-color: 192, 79, 21; /* A warm, earthy orange */
+    /* Primary brand color */
+    --logo-color: 192, 79, 21; 
 
     /* Primary Text/Background Colors */
     --primary-dark: 26, 26, 26;   /* Very dark grey/near black for primary text or backgrounds */
@@ -16,7 +16,7 @@
     --neutral-grey: 150, 150, 150; /* A mid-tone grey for borders, dividers, or subtle text */
 }
 body {
-    font-family: 'Comic Sans', sans-serif;
+    font-family: 'Futura', sans-serif;
     margin: 0;
     background-color: var(--primary-light); /* Light gray background */
 }
