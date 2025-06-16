@@ -1,3 +1,27 @@
-#heading {
-    color: aqua;
+#background_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+}
+#centerpiece #centered_logo {
+    position: absolute;
+    visibility: hidden;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    min-width: 20rem;
+    min-height: 20rem;
+    transform: translate(-50%, -50%);
+}
+.body_text {
+    margin-top: 100vh;
+    padding-top: 2rem;
+    background-color: rgb(var(--primary-dark));
+    color: rgb(var(--primary-light));
+    height: 200vh;
+    text-align: center;
+    position: relative;
 }

@@ -1,14 +1,14 @@
 #navbar {
     display: flex;
     flex-direction: row;
-    padding: 0;
-    background: rgba(var(--logo-color));
+    padding: 0 0 4rem 0;
+    background: linear-gradient(rgba(var(--logo-color), 1) 0%, rgba(var(--logo-color), 1) 60%, rgba(var(--logo-color), 0.8) 65%, rgba(var(--logo-color), 0) 100%);
     position: sticky;
     top: 0;
     min-height: 5rem;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    /*box-shadow: 0 2px 5px rgba(0,0,0,0.1);*/
     z-index: 1000;
 }
 
@@ -18,14 +18,13 @@
     justify-content: left;
     align-items: center;
     margin-left: 2rem;
-    padding: 0.5rem 0;
 }
 
 #logo_img {
-    height: auto;
-    width: 100%;
-    max-width: 5rem;
-    max-height: 4rem;
+    height: 300%;
+    width: 300%;
+    max-width: 10rem;
+    max-height: 10rem;
     object-fit: contain;
 }
 
@@ -48,7 +47,7 @@
     border: none;
     padding: 1rem 1.5rem;
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
     margin: 0 5px;
     transition: 0.3s ease, color 0.3s ease;
     display: block;
