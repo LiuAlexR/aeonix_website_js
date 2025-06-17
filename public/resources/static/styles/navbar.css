@@ -1,8 +1,8 @@
 #navbar {
     display: flex;
     flex-direction: row;
-    padding: 0 0 4rem 0;
-    background: linear-gradient(rgba(var(--logo-color), 1) 0%, rgba(var(--logo-color), 1) 60%, rgba(var(--logo-color), 0.8) 65%, rgba(var(--logo-color), 0) 100%);
+    padding: 0 0 2rem 0;
+    background: linear-gradient(rgba(var(--logo-color), 1) 0%, rgba(var(--logo-color), 0.9) 80%, rgba(var(--logo-color), 0) 100%);
     position: sticky;
     top: 0;
     min-height: 5rem;
