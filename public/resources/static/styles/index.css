@@ -18,9 +18,9 @@
 .body_text {
     margin-top: 100vh;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: rgb(var(--primary-dark));
     color: rgb(var(--primary-light));
-    height: 200vh;
     text-align: center;
     position: relative;
 }
